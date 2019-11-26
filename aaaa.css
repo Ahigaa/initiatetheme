@@ -45,7 +45,7 @@
     border-top: none !important;
 }
 :root {
-	--bgImage: url(https://initiate.space/discord/theme/paper.png?version=2);
+	--bgImage: url(paper.png);
 	--HomeButtonImg: url(https://initiate.space/logo.png);
 	--brightness: 0.4;
 	--customFont: 'Montserrat';
@@ -2123,7 +2123,7 @@ svg[class=premiumHeaderIcon-bTc_nQ] path {
 }
 
 .wordmark-2iDDfm svg {
-	background-image: url(https://initiate.space/discord/theme/wordMark.png);
+	background-image: url(wordMark.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;

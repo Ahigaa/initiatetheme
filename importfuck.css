@@ -3,19 +3,23 @@
 @import url(https://39hige1.github.io/initiatetheme/fontshit.css);
 
 
+
+
+
 html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {backface-visibility: hidden;}
 
 @keyframes loaderFade{0%{opacity:0;pointer-events:all}10%{opacity:1;pointer-events:all}90%{opacity:1;pointer-events:all}100%{opacity:0;pointer-events:none;display:none}}@keyframes loader{0%{transform:translate(-50%,-50%) scaleX(0);transform-origin:left center}100%{transform:translate(-50%);transform-origin:left center}}.full-motion body::before{content:'Loading /midnight/css/base.css';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:inset 0 0 0 100vmax rgba(255,255,255,.14),inset 0 0 0 100vmax var(--lv1),0 0 0 100vmax rgba(255,255,255,.05),0 0 0 100vmax var(--lv1);color:#fff;text-align:center;line-height:50px;font-size:var(--size1);animation:loaderFade 1.5s linear forwards;opacity:0;pointer-events:none}.full-motion body::after{content:'';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:0 0 24px 2px var(--accent);transform-origin:left center;background:var(--accent);animation:loader 1.5s linear,loaderFade 1.5s linear forwards;opacity:0;pointer-events:none}
 /*
- ** ****     ** ** ********** **     **     ********** ********
-/**/**/**   /**/**/////**/// /**    ****   /////**/// /**///// 
-/**/**//**  /**/**    /**    /**   **//**      /**    /**      
-/**/** //** /**/**    /**    /**  **  //**     /**    /******* 
-/**/**  //**/**/**    /**    /** **********    /**    /**////  
-/**/**   //****/**    /**    /**/**//////**    /**    /**      
-/**/**    //***/**    /**    /**/**     /**    /**    /********
-// //      /// //     //     // //      //     //     //////// 
-	       		ur not supposed to be in here
+
+
+██╗███╗   ██╗██╗████████╗██╗ █████╗ ████████╗███████╗
+██║████╗  ██║██║╚══██╔══╝██║██╔══██╗╚══██╔══╝██╔════╝
+██║██╔██╗ ██║██║   ██║   ██║███████║   ██║   █████╗  
+██║██║╚██╗██║██║   ██║   ██║██╔══██║   ██║   ██╔══╝  
+██║██║ ╚████║██║   ██║   ██║██║  ██║   ██║   ███████╗
+╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
+                                                     
+
 
 TABLE OF CONTENTS
 
@@ -183,20 +187,14 @@ TABLE OF CONTENTS
 
 :root {
 	/*Primary*/
-	--lv1: #05040e;
+	--lv1: #04040a;
   	--accent: rgba(120, 89, 204, 0.17);
   	--hover: #fff;
-	--bg: url('https://39hige1.github.io/initiatetheme/dualvoid.png');
+	--bg: url('https://initiate.space/discord/theme/fuckpaper.png');
 	--bg2: var(--lv1);
-  --HomeButtonImg:url("https://39hige1.github.io/initiatetheme/logoanim.gif");
 	--tooltip-color:#f6f6f7;
 	--bg-opacity: 0.25;
 	--bg-fade: 80%;
-  --MsgBarColor: #000;
-  --mentionColor: #ff4747;
-  --link: #ffd48c;
-  --ChannelColorHash: #698dcc;
-  --background-mentioned: rgba(250,166,26,0.05);
 
 	/*Support for other themes*/
 	--mc: var(--accent);
@@ -798,7 +796,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     pointer-events: all;
 }
 .wordmark-2iDDfm svg {
-    background-image: url(https://39hige1.github.io/initiatetheme/wordMark.png);
+    background-image: url(https://initiate.space/discord/theme/wordMark.png);
     background-size: contain;
     width: 100px;
     height: 16px;
@@ -6744,7 +6742,7 @@ body .bd-toasts {
 }
 
 .check-2by_h9 {
-	-webkit-mask:url(https://discordapp.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg);
+	-webkit-mask:url(/assets/6acb20d5e709b34b6a7f36ec13648666.svg);
 	background:var(--accent);
 }
 
@@ -7815,44 +7813,44 @@ body .bd-toasts {
 }
 
 #app-mount .profileBadgeStaff-13GO7z {
-	-webkit-mask: url(https://discordapp.com/assets/4358ad1fb423b346324516453750f569.svg) center/18px no-repeat;
+	-webkit-mask: url(/assets/4358ad1fb423b346324516453750f569.svg) center/18px no-repeat;
 	background:var(--accent) !important;
 }
 
 #app-mount .profileBadgePartner-SjK6L2 {
-	background-image: url(https://discordapp.com/assets/33fedf082addb91d88abc272b4b18daa.svg);
+	background-image: url(/assets/33fedf082addb91d88abc272b4b18daa.svg);
 }
 
 #app-mount .profileBadgeHypesquad-1YIe7Z {
-	background-image: url(https://discordapp.com/assets/6c73f47daf179ffade99f501bfc5101b.svg);
+	background-image: url(/assets/6c73f47daf179ffade99f501bfc5101b.svg);
 }
 
 #app-mount .profileBadgeHypeSquadOnlineHouse1-xN6tES {
-	background-image: url(https://discordapp.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
+	background-image: url(/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
 }
 
 #app-mount .profileBadgeHypeSquadOnlineHouse2-3jBpXR {
-	background-image: url(https://discordapp.com/assets/48cf0556d93901c8cb16317be2436523.svg);
+	background-image: url(/assets/48cf0556d93901c8cb16317be2436523.svg);
 }
 
 #app-mount .profileBadgeHypeSquadOnlineHouse3-1YbjMX {
-	background-image: url(https://discordapp.com/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg);
+	background-image: url(/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg);
 }
 
 #app-mount .profileBadgeHypeSquadOnlineHouse1Winner-3OGyO6 {
-	background-image: url(https://discordapp.com/assets/26a2dc8c9d70955a988cb377eec84c22.svg);
+	background-image: url(/assets/26a2dc8c9d70955a988cb377eec84c22.svg);
 }
 
 #app-mount .profileBadgeHypeSquadOnlineHouse2Winner-3GW5Sm {
-	background-image: url(https://discordapp.com/assets/88d4f11bee9ea34fee59973b33353da0.svg);
+	background-image: url(/assets/88d4f11bee9ea34fee59973b33353da0.svg);
 }
 
 #app-mount .profileBadgeHypeSquadOnlineHouse3Winner-2iVu11 {
-	background-image: url(https://discordapp.com/assets/3245b2cd85b787b195ea8f6e10ef5790.svg);
+	background-image: url(/assets/3245b2cd85b787b195ea8f6e10ef5790.svg);
 }
 
 #app-mount .profileBadgeEarlySupporter-PQB_0a {
-	background-image: url(https://discordapp.com/assets/23e59d799436a73c024819f84ea0b627.svg);
+	background-image: url(/assets/23e59d799436a73c024819f84ea0b627.svg);
 }
 
 .topSectionNormal-2-vo2m .profileBadgePremium-3kZ9Qj {
@@ -7865,47 +7863,47 @@ body .bd-toasts {
 }
 
 #app-mount .profileBadgeBugHunterLevel1-3oBv8Z {
-	background-image: url(https://discordapp.com/assets/f61b8981e92feead854f52e5a1ba14f0.svg);
+	background-image: url(/assets/f61b8981e92feead854f52e5a1ba14f0.svg);
 }
 
 #app-mount .profileBadgeBugHunterLevel2-3tFzet {
-	background-image: url(https://discordapp.com/assets/9286332d6e947c91fa91569efce431b0.svg);
+	background-image: url(/assets/9286332d6e947c91fa91569efce431b0.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl1-pKd1EZ {
-	background-image: url(https://discordapp.com/assets/fbb6f1e160280f0e9aeb5d7c452eefe1.svg);
+	background-image: url(/assets/fbb6f1e160280f0e9aeb5d7c452eefe1.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl2-1aIFve {
-	background-image: url(https://discordapp.com/assets/b4b741bef6c3de9b29e2e0653e294620.svg);
+	background-image: url(/assets/b4b741bef6c3de9b29e2e0653e294620.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl3-33AROf {
-	background-image: url(https://discordapp.com/assets/93f5a393e22796a850931483166d7cb9.svg);
+	background-image: url(/assets/93f5a393e22796a850931483166d7cb9.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl4-2yY8EG {
-	background-image: url(https://discordapp.com/assets/4c380650960c2b1e1584115d5e9ad63b.svg);
+	background-image: url(/assets/4c380650960c2b1e1584115d5e9ad63b.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl5-1mIKQ8 {
-	background-image: url(https://discordapp.com/assets/438dd7ecbffcf21b6cbf2773ade51a04.svg);
+	background-image: url(/assets/438dd7ecbffcf21b6cbf2773ade51a04.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl6-2tCBLE {
-	background-image: url(https://discordapp.com/assets/7a5f78de816fcecbbd1d5d6e635cc7dd.svg);
+	background-image: url(/assets/7a5f78de816fcecbbd1d5d6e635cc7dd.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl7-3M0RQX {
-	background-image: url(https://discordapp.com/assets/5a24b20b84fb3eafc138916729386e76.svg);
+	background-image: url(/assets/5a24b20b84fb3eafc138916729386e76.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl8-2ot52H {
-	background-image: url(https://discordapp.com/assets/f31d590e1f3629cd0b614330f4a8ee2a.svg);
+	background-image: url(/assets/f31d590e1f3629cd0b614330f4a8ee2a.svg);
 }
 
 #app-mount .profileGuildSubscriberlvl9-1qrrRa {
-	background-image: url(https://discordapp.com/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg);
+	background-image: url(/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg);
 }
 
 .root-SR8cQa .nameTag-2IFDfL {
@@ -11059,9 +11057,3 @@ left: 50px;
     top: 2%;
     animation: 0.8s linear 0s infinite normal none running scanlines;
 }
-
-
-
-
-
-

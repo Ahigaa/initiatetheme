@@ -187,14 +187,20 @@ TABLE OF CONTENTS
 
 :root {
 	/*Primary*/
-	--lv1: #04040a;
+	--lv1: #05040e;
   	--accent: rgba(120, 89, 204, 0.17);
   	--hover: #fff;
-	--bg: url('https://initiate.space/discord/theme/fuckpaper.png');
+	--bg: url('https://39hige1.github.io/initiatetheme/dualvoid.png');
 	--bg2: var(--lv1);
+	--HomeButtonImg:url("https://39hige1.github.io/initiatetheme/logoanim.gif");
 	--tooltip-color:#f6f6f7;
 	--bg-opacity: 0.25;
 	--bg-fade: 80%;
+  	--MsgBarColor: #000;
+  	--mentionColor: #ff4747;
+  	--link: #ffd48c;
+  	--ChannelColorHash: #698dcc;
+  	--background-mentioned: rgba(250,166,26,0.05);
 
 	/*Support for other themes*/
 	--mc: var(--accent);
@@ -796,7 +802,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     pointer-events: all;
 }
 .wordmark-2iDDfm svg {
-    background-image: url(https://initiate.space/discord/theme/wordMark.png);
+    background-image: url(https://39hige1.github.io/initiatetheme/wordMark.png);
     background-size: contain;
     width: 100px;
     height: 16px;

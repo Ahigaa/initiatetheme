@@ -10682,7 +10682,24 @@ header + .peopleListItem-2nzedh {
 
 /*16. Guild Settings Content*/
 
+.channel-2QD9_O > .layout-2DM8Md .avatar-3uk_u9::after {
+    content: "@";
+    position: relative;
+    color: var(--ChannelColorHash);
+    left: 87%;
+    top: 0%;
+    font-weight: bolder;
+}
+.avatar-3uk_u9 {
+	margin-right: 32px;
+}
 
+#private-channels-0 > div > div.avatar-3uk_u9.da-avatar::after {
+    display: none;
+}
+#private-channels-1 > div > div.avatar-3uk_u9.da-avatar::after {
+    display: none;
+}
 
 /*17. General Avatars*/
 

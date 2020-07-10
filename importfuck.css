@@ -2733,7 +2733,8 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
     box-shadow: 0 0 2px 2px rgba(120, 89, 204, 0.10);
     transition: 150ms all ease;
     height: 45px;
-    border-left: 2px solid rgba(255, 255, 255, .8);
+    border-left: 2px solid rgba(255, 255, 255, .5);
+    padding-left: 5px;
 }
 
 #app-mount .channel-2QD9_O .wrapper-3t9DeA {

@@ -2725,25 +2725,22 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 /*7.c. Channel Entries*/
 
 .channel-2QD9_O.selected-aXhQR6 {
-	background-color: var(--accent);
-	border-radius: 0;
-	margin-top: 7px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	box-shadow: 0 0 12px 1px var(--accent);
-	border-left: 2px solid rgba(255, 255, 255, .8);
+    background: linear-gradient(to right, rgba(120, 89, 204, 0.17) 0%, rgba(120, 89, 204, 0) 100%) !important;
+    border-radius: 0;
+    box-shadow: 0 0 2px 2px rgba(120, 89, 204, 0.10);
+    transition: 150ms all ease;
+    height: 30px;
+    border-left: 2px solid rgba(255, 255, 255, .8);
 }
 
 .channel-2QD9_O {
-	border-radius: 0;
-	transition: 150ms all ease;
-	background: rgba(255, 255, 255, .08);
-	margin: 10px;
-	margin-right: 2px;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, .08);
-	border-left: 2px solid rgba(255, 255, 255, .1);
-	max-width:100%;
-	height:36px;
+    border-radius: 0;
+    transition: 150ms all ease;
+    padding-bottom: 0;
+    height: 27px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-left: 2px solid rgba(255, 255, 255, .1);
 }
 
 .channel-2QD9_O:not(.selected-aXhQR6):hover,

@@ -2720,24 +2720,6 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 
 /*7.c. Channel Entries*/
 
-.channel-2QD9_O.selected-aXhQR6 {
-    background: linear-gradient(to right, rgba(120, 89, 204, 0.17) 0%, rgba(120, 89, 204, 0) 100%) !important;
-    border-radius: 0;
-    box-shadow: 0 0 2px 2px rgba(120, 89, 204, 0.10);
-    transition: 150ms all ease;
-    height: 45px;
-    border-left: 2px solid rgba(255, 255, 255, .8);
-}
-
-.channel-2QD9_O:not(.selected-aXhQR6):hover {
-    background: linear-gradient(to right, rgba(120, 89, 204, 0.17) 0%, rgba(120, 89, 204, 0) 100%) !important;
-    border-radius: 0;
-    box-shadow: 0 0 2px 2px rgba(120, 89, 204, 0.10);
-    transition: 150ms all ease;
-    height: 45px;
-    border-left: 2px solid rgba(255, 255, 255, .8);
-}
-
 .channel-2QD9_O {
     border-radius: 0;
     transition: 150ms all ease;
@@ -2746,10 +2728,12 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 
 .channel-2QD9_O:not(.selected-aXhQR6):hover,
 .channel-2QD9_O:not(.selected-aXhQR6):active {
-	background-color: rgba(255, 255, 255, .15);
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, .15);
-	border-left: 2px solid rgba(255, 255, 255, .5);
-	padding-left: 5px;
+    background: linear-gradient(to right, rgba(120, 89, 204, 0.17) 0%, rgba(120, 89, 204, 0) 100%) !important;
+    border-radius: 0;
+    box-shadow: 0 0 2px 2px rgba(120, 89, 204, 0.10);
+    transition: 150ms all ease;
+    height: 45px;
+    border-left: 2px solid rgba(255, 255, 255, .8);
 }
 
 #app-mount .channel-2QD9_O .wrapper-3t9DeA {

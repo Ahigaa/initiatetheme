@@ -686,7 +686,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 .preview-2nSL_2 .compact-T3H92H:last-of-type::before,
 .messagesWrapper-3lZDfY .compact-T3H92H:last-of-type::before {
-	content:'¯\\_(ツ)_/¯';
+	content:'Fuck you';
 	color:#fff;
 	font-size:82px;
 	margin-bottom:15px;
@@ -696,7 +696,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 .preview-2nSL_2 .compact-T3H92H:last-of-type::after,
 .messagesWrapper-3lZDfY .compact-T3H92H:last-of-type::after {
-	content:'Compact Mode is not supported on Midnight. Please deactivate it through settings.';
+	content:'Disable that shit';
 	line-height:normal;
 	color: rgba(255, 255, 255, .65);
 	font-size: var(--size1);

@@ -1273,7 +1273,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	margin-left: 0!important;
 }
 .animatedContainer-1pJv5C.da-animatedContainer {
-	z-index: 2!important;
+	z-index: 5!important;
 	height: 180px!important;
 	pointer-events: none !important;
 }
@@ -1817,7 +1817,7 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 	box-sizing:border-box;
 	padding:0 10px;
 	--status-color:var(--accent);
-	    -webkit-mask: linear-gradient(black 89%, transparent);
+	    -webkit-mask: linear-gradient(black 91%, transparent);
 }
 
 .panels-j1Uci_ .container-3baos1:not(.powercord-spotify) .flex-1O1GKY {
@@ -2293,7 +2293,6 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 }
 
 .container-1giJp5 {
-	height: 20px;
 	background: var(--lv1) !important;
 	box-shadow: 0 0 12px var(--lv1);
 	border-bottom: 2px solid var(--accent);
@@ -2337,9 +2336,24 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 }
 
 .panel-24C3ux {
-	background:rgba(255,255,255,0.07);
 	border:none;
 	padding:4px 8px;
+}
+
+.panel-24C3ux.da-panel.activityPanel-28dQGo.da-activityPanel {
+    width: calc(60px + 205px) !important;
+    margin-left: -60px;
+    background: var(--background-tertiaryy);
+    margin-bottom: 0;
+    box-sizing: border-box;
+    padding: 0 10px;
+    --status-color: var(--accent);
+    -webkit-mask: linear-gradient(black 89%, transparent);
+	
+    top: 169px!important;
+    position: absolute!important;
+    z-index: 3!important;
+    margin-left: 0!important;
 }
 
 .panel-24C3ux .button-14-BFJ {

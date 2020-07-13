@@ -1409,9 +1409,6 @@ div#channels > .listContent-2_qb-y.da-listContent {
 }
 .animatedContainer-1pJv5C.da-animatedContainer {
     pointer-events: none !important;
-}
-.animatedContainer-1pJv5C.da-animatedContainer {
-    z-index: 2 !important;
     height: 180px !important;
 }
 .animatedContainer-1pJv5C, .bannerImage-1jOskm {

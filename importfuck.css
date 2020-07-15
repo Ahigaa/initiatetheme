@@ -4110,6 +4110,13 @@ keyframes flicker {
 	content: "Markdown";
 	--codeblockcolor: #ab2e16;
 }
+.hljs[class~=markdown i], .hljs[class~=md i] {
+    font-size: -webkit-xxx-large;
+    text-size-adjust: auto;
+    width: auto;
+    height: auto;
+    line-height: initial;
+}
 
 .hljs[class~=html i]::before {
 	content: "HTML";

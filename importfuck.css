@@ -4008,7 +4008,6 @@ keyframes flicker {
 	background-size: 15px;
 	background-position: 8px center;
 	background-repeat: no-repeat;
-	box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
 }
 
@@ -4017,9 +4016,6 @@ keyframes flicker {
 	overflow: hidden;
 	margin-bottom: 5px;
 	border-radius: 0;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
-	background-color: rgba(0, 0, 0, .25);
-	backdrop-filter: blur(10px);
 }
 
 
@@ -4094,6 +4090,7 @@ keyframes flicker {
 .hljs[class~=md i]::before {
 	content: "";
 	--codeblockcolor: transparent;
+	background-color: transparent;
 }
 .hljs[class~=markdown i], .hljs[class~=md i] {
     font-size: -webkit-xxx-large;

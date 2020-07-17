@@ -10213,24 +10213,29 @@ header + .peopleListItem-2nzedh {
 	transition:150ms ease;
 	background: rgba(255,255,255,0.07) !important;
 	font-size:var(--size1);
-	box-shadow:0 1px 3px var(--lv1);
-	border:1px solid var(--lv1) !important;
+	box-shadow:none !important;
+	border:none !important;
 	box-sizing:border-box;
 	color:#fff;
 }
 
 .input-2A_zIr:hover,
 .input-cIJ7To:not(.multiInput-1e2xJ7):hover {
-	box-shadow:0 1px 4px var(--lv1);
-	border:1px solid var(--lv1) !important;
+	box-shadow:none !important;
+	border:none !important;
 }
 
 .input-cIJ7To:not(.multiInput-1e2xJ7).focused-1mmYsC,
 .input-cIJ7To:not(.multiInput-1e2xJ7):focus {
-	box-shadow:0 0 2px var(--lv1);
-	border:1px solid var(--accent) !important;
+	box-shadow:none !important;
+	border:none !important;
 }
-
+.bodyInnerWrapper-Z8WDxe {
+	padding-right: 0 !important;	
+}
+.body-3iLsc4 {
+	    padding: 0 !important;
+}
 .multiInput-1e2xJ7 {
 	border:none;
 	background:transparent;

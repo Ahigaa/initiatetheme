@@ -9927,8 +9927,8 @@ header + .peopleListItem-2nzedh {
 }
 
 /*12.e. Buttons*/
-.jumpButton-1ol35X {
-      z-index: 100;
+.jumpButton-1ol35X, .jumpButton-JkYoYK {
+      z-index: 100 !important;
 }
 
 

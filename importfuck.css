@@ -2810,6 +2810,55 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 
 /*8.a. Outer Chat & Background System*/
 
+body::before {
+ content:"";
+ display:block;
+ position:fixed;
+ left:0;
+ top:0;
+ width:calc(100% + 32px);
+ height:calc(100% + 32px);
+ background-image:url(scanlines.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ z-index:10000000;
+ animation:ScanlineAnimationLeft 2s linear infinite;
+ pointer-events:none;
+ opacity:.75
+}
+body::after {
+ content:"";
+ display:block;
+ position:fixed;
+ left:-32px;
+ top:0;
+ width:calc(100% + 32px);
+ height:calc(100% + 32px);
+ background-image:url(scanlines.png);
+ background-position:0 0;
+ background-repeat:repeat;
+ z-index:10000000;
+ animation:ScanlineAnimationRight .4s linear infinite;
+ pointer-events:none;
+ opacity:.75
+}
+@keyframes ScanlineAnimationLeft {
+ 0% {
+  transform:translateX(0px) translateY(0px)
+ }
+ 100% {
+  transform:translateX(-32px) translateY(-32px)
+ }
+}
+@keyframes ScanlineAnimationRight {
+ 0% {
+  transform:translateX(0px) translateY(0px)
+ }
+ 100% {
+  transform:translateX(32px) translateY(-32px)
+ }
+}
+
 @keyframes chatslide {
 	from {
 		transform: translate(0, -50px);

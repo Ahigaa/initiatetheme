@@ -378,7 +378,9 @@ TABLE OF CONTENTS
 }
 
 /*1.e. Tooltips*/
-
+.tooltip-2QfLtc.da-tooltip.tooltipTop-XDDSxx.tooltipBlack-PPG47z.tooltipDisablePointerEvents-3eaBGN.da-tooltipDisablePointerEvents {
+max-width: fit-content !important;
+}
 @keyframes tooltip {
 	0% {
 		transform: scale(0.85);

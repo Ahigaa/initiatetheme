@@ -5574,6 +5574,18 @@ keyframes flicker {
 	width: 25px;
 	height: 25px;
 }
+.container-ZRw2kD.da-container {
+	width: auto;
+}
+.emojiSection-3Fb9ix, .container-ZRw2kD{
+	background-color: transparent;
+}
+.emojiSection-3Fb9ix.da-emojiSection {
+	padding: 0;
+}
+.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.truncatingText-18osv_.da-truncatingText, button.shinyButton-3uFlM-.da-shinyButton.ctaButton-fjBGVN.da-ctaButton.button-38aScr.da-button.lookFilled-1Gx00P.colorGreen-29iAKY.sizeSmall-2cSMqn.fullWidth-1orjjo.da-fullWidth.grow-q77ONN.da-grow {
+	display: none;
+}
 
 .avatarHintInner-Dco91E {
 	background:url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBmaWxsPSIjZmZmZmZmIj4gIDxwYXRoIGQ9Ik0xMiAxMmMyLjIxIDAgNC0xLjc5IDQtNHMtMS43OS00LTQtNC00IDEuNzktNCA0IDEuNzkgNCA0IDR6bTAgMmMtMi42NyAwLTggMS4zNC04IDR2MmgxNnYtMmMwLTIuNjYtNS4zMy00LTgtNHoiLz4gIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=") center/60% no-repeat !important;

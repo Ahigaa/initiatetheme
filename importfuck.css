@@ -703,6 +703,25 @@ html.theme-light body.bd-minimal #app-mount::before {
 	color: rgba(255, 255, 255, .65);
 	font-size: var(--size1);
 }
+html.reduce-motion.theme-light.platform-win.a11y-font-scaled-down::before {
+	position: absolute;
+    	top: 8.2%;
+    	left: 30.6%;
+	content:'Fuck you';
+	color:#fff;
+	font-size:82px;
+	margin-bottom:15px;
+	font-weight:600;
+}
+html.reduce-motion.theme-light.platform-win.a11y-font-scaled-down::after {
+    content: 'Disable that shit';
+    line-height: normal;
+    color: rgba(255, 255, 255, .65);
+    font-size: var(--size1);
+    position: absolute;
+    top: 14%;
+    left: 44.9%;
+}
 
 /*2. Titlebar*/
 

@@ -11097,10 +11097,23 @@ position: absolute;
 top: 7px;
 left: 50px;
 }
+.ml2-deleted .markup-2BOw-j::after {
+    height: 14px;
+    width: 14px;
+    content: "🗑️";
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    text-indent: 1px;
+}
 
 .ml2-deleted .markup-2BOw-j:hover {
     color: white !important;
     text-indent: 0px;
+}
+
+.ml2-deleted .markup-2BOw-j:hover:after {
+    opacity: 0;
 }
 
 /*19.a. Theme and Plugin Entries*/

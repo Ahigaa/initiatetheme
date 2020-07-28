@@ -4971,6 +4971,10 @@ keyframes flicker {
 	color:var(--accent);
 }
 
+.message-2qnXI6 .blockedSystemMessage-2Rk1ek.da-blockedSystemMessage.container-3-pyIM.da-container {
+	display: none;	
+}
+
 /*8.o. System Messages*/
 
 .message-2qnXI6.localBot-GrCgVt .header-23xsNx,
@@ -9993,7 +9997,9 @@ header + .peopleListItem-2nzedh {
 .jumpButton-1ol35X, .jumpButton-JkYoYK {
       z-index: 100 !important;
 }
-
+div#user-context-block {
+    color: #f04747;
+}
 
 .lookFilled-1Gx00P,
 .lookLink-9FtZy-,
@@ -11067,16 +11073,7 @@ header + .peopleListItem-2nzedh {
 .ml2-deleted .markup-2BOw-j::before {
 height: 14px;
 width: 14px;
-background-color: #dbdfe6;
--webkit-mask-image: url(https://riot.im/app/img/feather-customised/trash.custom.1e6ecd4.svg);
-mask-image: url(https://riot.im/app/img/feather-customised/trash.custom.1e6ecd4.svg);
--webkit-mask-repeat: no-repeat;
-mask-repeat: no-repeat;
--webkit-mask-position: center;
-mask-position: center;
--webkit-mask-size: contain;
-mask-size: contain;
-content: "";
+content: "🗑️";
 position: absolute;
 top: 7px;
 left: 50px;
@@ -11085,8 +11082,6 @@ left: 50px;
 .ml2-deleted .markup-2BOw-j:hover {
     color: white !important;
     text-indent: 0px;
-    mask-image: url()!important;
-    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1.0), transparent) !important;
 }
 
 /*19.a. Theme and Plugin Entries*/

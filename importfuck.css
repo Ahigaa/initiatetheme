@@ -11092,15 +11092,6 @@ div#user-context-block {
 .ml2-deleted .markup-2BOw-j{
   text-indent: -9999999px;
 }
-
-.ml2-deleted .markup-2BOw-j::before {
-height: 14px;
-width: 14px;
-content: "🗑️";
-position: absolute;
-top: 7px;
-left: 50px;
-}
 .ml2-deleted .markup-2BOw-j::after {
     height: 14px;
     width: 14px;

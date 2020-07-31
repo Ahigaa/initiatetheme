@@ -7702,7 +7702,7 @@ body .bd-toasts {
 	width:100%;
 	height:100%;
 	z-index:-2;
-	background-image: linear-gradient(to bottom, var(--lv1), rgba(255, 255, 255, 0.15) 100%), url();
+	background-image: linear-gradient(to bottom, var(--lv1), rgba(0, 0, 0, 0.15) 100%), url();
 	background-size: 10%;
 }
 

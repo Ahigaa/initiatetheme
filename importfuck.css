@@ -5680,8 +5680,11 @@ keyframes flicker {
 	border-radius: 2px;
 	height: 1.28em;
 	padding: .072rem .275rem;
-	background:#fff;
+	background:transparent;
 	color:var(--accent);
+}
+#members-673308690157404211-10 > div > div.content-3QAtGj.da-content > div.nameAndDecorators-5FJ2dg.da-nameAndDecorators > span {
+    display: none;
 }
 
 .userPopout-3XzG_A .avatarWrapper-3H_478[user_by_bdfdb*="254362351170617345"]+.headerText-2sdzFM .headerTag-2pZJzA:after {
@@ -10305,19 +10308,31 @@ div#user-context-block {
 /*12.g. Bot Tags*/
 
 .botTag-2WPJ74:not(.tag-wWVHyf) {
-	margin:0;
-	margin-right:4px;
-	font-size:0;
-	background:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiB2aWV3Qm94PSIwIDAgMTQgMTYiIHZlcnNpb249IjEuMSIgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiNmZmZmZmYiPiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQgOC43N3YtMS42bC0xLjk0LS42NC0uNDUtMS4wOS44OC0xLjg0LTEuMTMtMS4xMy0xLjgxLjkxLTEuMDktLjQ1LS42OS0xLjkyaC0xLjZsLS42MyAxLjk0LTEuMTEuNDUtMS44NC0uODgtMS4xMyAxLjEzLjkxIDEuODEtLjQ1IDEuMDlMMCA3LjIzdjEuNTlsMS45NC42NC40NSAxLjA5LS44OCAxLjg0IDEuMTMgMS4xMyAxLjgxLS45MSAxLjA5LjQ1LjY5IDEuOTJoMS41OWwuNjMtMS45NCAxLjExLS40NSAxLjg0Ljg4IDEuMTMtMS4xMy0uOTItMS44MS40Ny0xLjA5TDE0IDguNzV2LjAyek03IDExYy0xLjY2IDAtMy0xLjM0LTMtM3MxLjM0LTMgMy0zIDMgMS4zNCAzIDMtMS4zNCAzLTMgM3oiLz48L3N2Zz4=') center/var(--size1) no-repeat;
-	width:18px;
 	height:18px;
 	padding:0;
-	background-color:var(--lv1);
+	background-color:transparent;
 	box-sizing:border-box;
-	box-shadow:inset 0 0 0 100vmax rgba(255,255,255,0.2), 0 0 10px rgba(0,0,0,0.25);
 	border-radius:3px;
 	display:flex;
 	order:-1;
+}
+span.botText-1526X_.da-botText {
+	display: none;
+}
+.botTag-2WPJ74:not(.tag-wWVHyf)::before {
+    color: #ff8c00;
+    content: "## Bot";
+    margin-right: .5em;
+    font-weight: 500;
+    font-size: var(--size1);
+    font-family: var(--font);
+    text-shadow: 0 0 12px currentColor;
+    height: 30px;
+    line-height: normal;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
 }
 
 .px-10SIf7 .botText-1526X_ {

@@ -5686,6 +5686,9 @@ keyframes flicker {
 #members-673308690157404211-10 > div > div.content-3QAtGj.da-content > div.nameAndDecorators-5FJ2dg.da-nameAndDecorators > span {
     display: none;
 }
+span.botTag-3W9SuW.da-botTag.botTagRegular-2HEhHi.botTag-2WPJ74.da-botTagRegular.da-botTag.px-10SIf7.da-px {
+    display: none;
+}
 
 .userPopout-3XzG_A .avatarWrapper-3H_478[user_by_bdfdb*="254362351170617345"]+.headerText-2sdzFM .headerTag-2pZJzA:after {
 	content: 'Dev';

@@ -4,7 +4,7 @@
 @import url('https://39hige1.github.io/initiatetheme/discordbg.css');
 @import url('https://39hige1.github.io/initiatetheme/discordcapp.css');
 
-.avatar-1BDn8e[src*='680569176645042298'] + h2 > span.username-1A8OIy.da-username.clickable-1bVtEA.da-clickable.focusable-1YV_-H.da-focusable::after { color: #ffccfd;}
+.avatar-1BDn8e[src*='680569176645042298'] + h2 > span.username-1A8OIy.da-username.clickable-1bVtEA.da-clickable.focusable-1YV_-H.da-focusable::after { color: #e9b9ef;}
 
 html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {backface-visibility: hidden;}
 

@@ -1391,7 +1391,12 @@ div#private-channels > .listContent-2_qb-y.da-listContent {
 div#channels > .listContent-2_qb-y.da-listContent {
     padding-top: 140px;
 }
-
+div#channels {
+    padding-top: 105px;
+}
+div#private-channels {
+    padding-top: 150px;
+}
 .guilds-1SWlCJ ::-webkit-scrollbar {
 	display: none;
 }

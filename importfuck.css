@@ -2863,10 +2863,13 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 
 /*8. Chat*/
 .cozy-3raOZG .header-23xsNx .username-1A8OIy {
-	font-size: var(--size1);
-	text-shadow: 0 0 12px currentColor;
-	box-shadow: inset 10px 0 10px -12px currentColor;
-	border-left: 3px solid currentColor;
+	    font-size: var(--size1);
+    text-shadow: 0 0 7px currentColor;
+    box-shadow: inset 10px 0 10px -12px currentColor;
+    border-left: 3px solid currentColor;
+    padding-left: 8px;
+    line-height: normal;
+    height: 30px;
 }
 
 .emoji.jumboable {
@@ -9956,11 +9959,11 @@ span.botText-1526X_.da-botText {
     color: #ff8c00;
     content: "## Bot";
     margin-right: .5em;
+    margin-left: .5em;
     font-weight: 500;
     font-size: var(--size1);
     font-family: var(--font);
-    text-shadow: 0 0 12px currentColor;
-    height: 30px;
+    text-shadow: 0 0 7px currentColor;
     line-height: normal;
     vertical-align: middle;
     align-items: center;

@@ -2862,6 +2862,13 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 }
 
 /*8. Chat*/
+.cozy-3raOZG .header-23xsNx .username-1A8OIy {
+	font-size: var(--size1);
+	text-shadow: 0 0 12px currentColor;
+	box-shadow: inset 10px 0 10px -12px currentColor;
+	border-left: 3px solid currentColor;
+}
+
 .emoji.jumboable {
     width: 5rem;
     height: 5rem;
@@ -2880,6 +2887,25 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 	box-shadow: 0 0 0 2px var(--accent)
 }
 
+.avatar-1BDn8e[src*="680569176645042298"] + h2::after {
+    content: '';
+    color: transparent;
+    height: 15px;
+    width: 15px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: -29px;
+    left: -22px;
+    pointer-events: none;
+    filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
+}
+.avatar-1BDn8e[src*="680569176645042298"] + h2::after {
+    background-image: url(https://initiate.space/static/media/main-logo.d27aaf05.png);
+    transform: scale(1.2);
+    bottom: -30px;
+    left: -24px;
+}
 /*8.a. Outer Chat & Background System*/
 
 body::before {

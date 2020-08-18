@@ -2862,18 +2862,18 @@ nav.container-PNkimc.da-container > .scrollerWrap-2lJEkd.da-scrollerWrap.scrolle
 }
 
 /*8. Chat*/
-
+.emoji.jumboable {
+    width: 5rem;
+    height: 5rem;
+    min-height: 3rem;
+}
 .cozy-3raOZG .contents-2mQqc9 .avatar-1BDn8e {
-	z-index:1;
-	left: 0;
-	margin: 0 10px;
-	display: block;
-	margin-top: calc(30px + .25em);
-	border-radius: var(--user-roundness);
-	height: 32px !important;
-	width: 32px !important;
-	box-shadow: 0 0 0 2px rgba(255, 255, 255, .15);
-	transition: 150ms ease box-shadow;
+	z-index: 1;
+    	left: 0;
+    	margin: 0 10px;
+    	border-radius: var(--user-roundness);
+    	box-shadow: 0 0 0 2px rgba(255, 255, 255, .15);
+    	transition: 150ms ease box-shadow;
 }
 
 .cozy-3raOZG .contents-2mQqc9 .avatar-1BDn8e:hover {
@@ -4497,7 +4497,7 @@ body::after {
 }
 
 .mentioned-xhSam7 .messageContent-2qWWxC {
-	padding-left:65px;
+	padding-left:75px;
 }
 
 .mentioned-xhSam7 .messageContent-2qWWxC {
@@ -9920,7 +9920,7 @@ div#user-context-block {
 	background-color:transparent;
 	box-sizing:border-box;
 	border-radius:3px;
-	display:flex;
+	display:content;
 	order:-1;
 }
 span.botText-1526X_.da-botText {

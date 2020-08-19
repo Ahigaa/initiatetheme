@@ -3017,7 +3017,7 @@ body::after {
 
 .message-2qnXI6,
 .cozy-3raOZG.wrapper-2a6GCs:not(.message-2qnXI6) {
-  background: rgba(255, 255, 255, 0.075) !important;
+  background: rgba(255, 255, 255, 0.01) !important;
   border-left: 2px solid rgba(255, 255, 255, 0.075) !important;
   margin: 0 20px;
   padding-right:0;

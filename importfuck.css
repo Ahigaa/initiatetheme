@@ -3181,13 +3181,6 @@ body::after {
   display: flex !important;
 }
 
-.emoji.jumboable {
-  width: 2rem;
-  height: 2rem;
-  margin-right: 2px;
-  min-height: unset;
-}
-
 .fav {
   background-color:var(--accent);
   border-radius:50px;
@@ -4790,10 +4783,6 @@ body::after {
 }
 
 .mentioned-xhSam7 .messageContent-2qWWxC {
-	padding-left:75px;
-}
-
-.mentioned-xhSam7 .messageContent-2qWWxC {
   color: var(--mentionColor);
 }
 
@@ -4840,7 +4829,7 @@ body::after {
 }
 
 .mentioned-xhSam7 .messageContent-2qWWxC {
-	padding-left:65px;
+	padding-left:12px;
 }
 
 .mentioned-xhSam7 .messageContent-2qWWxC {
@@ -4851,7 +4840,7 @@ body::after {
 	content:'';
 	position:absolute;
 	top:0;
-	left:55px;
+	left:0px;
 	width:calc(100% - 65px);
 	height:calc(100% - 25px);
 	z-index:-1;

@@ -1,0 +1,64 @@
+/**
+ * @name Initiate nigger
+ * @author Ahiga
+ * @version Auto
+ * @description Go fuck yourself
+*/
+
+/*
+
+██╗███╗   ██╗██╗████████╗██╗ █████╗ ████████╗███████╗
+██║████╗  ██║██║╚══██╔══╝██║██╔══██╗╚══██╔══╝██╔════╝
+██║██╔██╗ ██║██║   ██║   ██║███████║   ██║   █████╗  
+██║██║╚██╗██║██║   ██║   ██║██╔══██║   ██║   ██╔══╝  
+██║██║ ╚████║██║   ██║   ██║██║  ██║   ██║   ███████╗
+╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
+###################################################################################################
+
+All of these values are customizeable to your liking.
+This theme is made to replicate the initiate rocket.chat theme.
+Lets all love Lain.
+
+This theme is meant to be used with the dark version of discord
+###################################################################################################*/
+@import url("https://39hige1.github.io/initiatetheme/importfuck.css?version=fuckmeee");
+/*###################################################################################################*/
+:root {
+  --lv1: #05040e;
+  --accent: rgba(120, 89, 204, 0.17);
+  --hover: #fff;
+  --bg: url('https://39hige1.github.io/initiatetheme/dualvoid.png');
+  /*--bg2:url("https://initiate.space/discord/theme/fuckpaper.png");*/
+  --HomeButtonImg:url("https://39hige1.github.io/initiatetheme/logoanim.gif");
+  --bg-opacity: 1;
+  --bg-fade:75%;
+  --font: 'Inter', sans-serif;
+  --letter-spacing: -.02rem;
+  --caution: #ffd104;
+  --danger: #e20b0b;
+  --unavailable: #636b75;
+  --invisible: #747f8d;
+  --information: #4a90e2;
+  --twitch-purple: #9146FF;
+  --spotify-green: #1DB954;
+  --xbox-green: #0e7a0d;
+  --netflix-red: #e50914;
+  --user-roundness: 0px;
+  --sourcecheck-unsafe-embed-bg-dark: var(--lv1);
+  --sourcecheck-unsafe-shadow-tint-dark: var(--lv1);
+  --width2:  60%;
+  --height2:  85%;
+  --MsgBarColor: #000;
+  --mentionColor: #ff4747;
+  --link: #ffd48c;
+  --ChannelColorHash: #698dcc;
+  --background-mentioned: rgba(250,166,26,0.05);
+  font-size: 14px !important;
+}
+/*###################################################################################################*/
+body::before {
+ background-image:none !important
+}
+body::after {
+  background-image:none !important;
+}

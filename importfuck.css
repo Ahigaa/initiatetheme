@@ -4829,7 +4829,7 @@ body::after {
 }
 
 .mentioned-xhSam7 .messageContent-2qWWxC {
-	padding-left:12px;
+	padding-left:70px;
 }
 
 .mentioned-xhSam7 .messageContent-2qWWxC {
@@ -11027,8 +11027,9 @@ span.botText-1526X_.da-botText {
     width: 14px;
     content: "🗑️";
     position: absolute;
-    left: 0px;
+    left: 70px;
     text-indent: 1px;
+    top: 20px;
 }
 
 .ml2-deleted .markup-2BOw-j:hover {

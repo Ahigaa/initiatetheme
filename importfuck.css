@@ -2986,7 +2986,7 @@ body::after {
 .full-motion .messagesWrapper-3lZDfY .scrollerWrap-2su1QI {
 	animation: chatslide 350ms ease;
 }
-/*8.b. Messages*/
+/*8.b. Messages
 
 @keyframes headerBlurDelay {
   0% {
@@ -3243,7 +3243,7 @@ body::after {
 
 .a11y-font-scaled-down .cozy-3raOZG.wrapper-2a6GCs .header-23xsNx {
     padding-left: 0rem;
-}
+}*/
 /*8.c. Attachments*/
 
 .wrapper-2TxpI8 {

@@ -1,10 +1,3 @@
-/**
- * @name Initiate nigger
- * @author Ahiga
- * @version Auto
- * @description Go fuck yourself
-*/
-
 /*
 
 ██╗███╗   ██╗██╗████████╗██╗ █████╗ ████████╗███████╗
@@ -14,51 +7,156 @@
 ██║██║ ╚████║██║   ██║   ██║██║  ██║   ██║   ███████╗
 ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
 ###################################################################################################
-
-All of these values are customizeable to your liking.
-This theme is made to replicate the initiate rocket.chat theme.
-Lets all love Lain.
-
-This theme is meant to be used with the dark version of discord
+Based on Slate
 ###################################################################################################*/
-@import url("https://39hige1.github.io/initiatetheme/importfuck.css?version=fuckmeee");
-/*###################################################################################################*/
+/**
+ * @name SlaATeINI UJIN 2
+ * @author STOLEN BY EUGEN made by Ahigger AHIGGER EDITION:tm:
+ * @version 1.6 SEX EDITION
+ * @invite FUCK U
+ * @description Ahigger
+ * @source ---- my COCK
+ * @website THIS DICK DOT COM
+*/
+
+/*
+
+⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡽⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡅⠈⠙⠙⠿⠻⠏⡿⣿⣿⣿⣿⡇
+⢀⢀⢀⢀⢀⢀⢀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢛⣩⣴⣶⣶⣾⣿⣿⣶⣶⣦⣌⡙⢿⣿⡇
+⢀⢀⢀⢀⢀⢀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣝⣯⡻⢿⠏⣴⣿⣿⠿⢛⣉⣭⠉⠉⠉⠛⠻⣿⣿⣆⢹⡇
+⢀⢀⢀⢀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⢻⣿⣿⡟⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣷⣽⡏⣸⣿⣿⢋⣼⣷⣾⣿⣧⢀⢀⢀⠂⣿⣿⣿⢀⡇
+⢀⢀⢀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢣⣿⡟⠈⣿⣿⡇⢀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣉⣉⣉⣸⣿⣿⣿⣿⣿⠆⣀⣤⣾⣿⣿⠋⢀⠇
+⢀⢀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⣸⣿⠇⢀⣿⣿⡇⢀⢀⢀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢫⣴⣿⣿⡿⠟⠋
+⢀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠁⢠⣿⡟⢀⢀⣿⣿⡇⢀⢀⠤⢀⠒⠒⠚⠛⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⣿⡟⣡
+⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⢀⢠⣿⡟⢀⢀⢀⣿⣿⢀⢀⢀⢀⢀⢀⣀⡀⢀⢀⢀⢀⢀⠈⠙⠻⠿⣿⣿⣿⣿⣿⣿⣿⣧⣉⣉⣡⣿⡄
+⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⢀⣠⡿⠋⢀⢀⢀⢰⣿⠇⢀⢀⠤⠂⢀⣀⣤⣤⣤⣤⣥⣀⢀⢀⢀⢀⢀⢻⣿⣿⣿⣿⣿⣿⠟⣛⣛⣛⢻⣧
+⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠉⢀⡼⠋⢀⢀⢀⢀⢀⣼⡟⢀⢀⢀⢁⣴⡿⢟⣯⣵⣤⣄⡉⠙⢿⣶⡂⢀⢀⠈⣿⣿⣿⣿⣿⣿⢀⣿⣿⣿⢸⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⢀⠤⠮⠄⢀⢀⢀⢀⢀⢠⠟⢀⢀⢀⠠⣻⠋⢀⠉⢻⣿⣿⣿⣿⣄⢀⠙⣷⡤⢀⢀⢹⣿⣿⣿⣿⣿⣄⣛⣛⣛⣸⣿⡄  ███╗░░██╗██╗░██████╗░░██████╗░███████╗██████╗░
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠐⢀⣠⣤⣶⣦⣤⣈⢀⢀⢀⠊⢀⢀⢀⢀⢀⠁⢀⢀⣀⣄⣼⣿⣿⣿⣿⢀⢀⢹⡇⢀⢀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇  ████╗░██║██║██╔════╝░██╔════╝░██╔════╝██╔══██╗
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠣⢀⣠⡾⠛⣩⣭⣭⡙⠃⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠘⣿⣿⠛⠛⠉⣇⣸⢀⢀⠟⠁⢀⢀⣸⣿⣿⣿⣿⡿⠿⣿⣿⣿⣿⣿⣿⡄ ██╔██╗██║██║██║░░██╗░██║░░██╗░█████╗░░██████╔╝ 
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⠃⣾⠏⢀⠈⠙⢿⣿⣿⣆⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠙⢿⡦⠤⠴⠿⠇⢀⢀⢀⢀⢀⢀⣿⣿⣿⣿⣿⣀⢀⠘⣿⣿⣿⣿⣿⣷ ██║╚████║██║██║░░╚██╗██║░░╚██╗██╔══╝░░██╔══██╗
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⡏⢀⢰⣤⣴⣿⣿⠿⢿⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣼⣿⣿⣿⣿⣿⡄⠈⢀⢸⣿⣿⣿⣿⣿⣧██║░╚███║██║╚██████╔╝╚██████╔╝███████╗██║░░██║
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⡃⠸⣷⢀⠘⣿⣿⡉⠉⢀⣼⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣼⢿⣿⣿⣿⣿⣿⣷⢄⠐⢸⣿⣿⣿⣿⣿⣿╚═╝░░╚══╝╚═╝░╚═════╝░░╚═════╝░╚══════╝╚═╝░░╚═╝  :)
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⢀⠻⠧⡀⠈⠛⠷⠚⠉⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡠⠚⢁⣾⣿⡿⠃⢻⣿⣿⡸⢀⣼⣿⣿⣿⣿⣿⣿⣿⡆
+⢸⣿⡽⣿⣿⣿⣿⣿⣿⣿⡄⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣠⣿⡿⠋⢀⢀⢘⣿⣿⡇⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀
+⢀⢿⣇⠘⢿⣿⣿⣿⣿⣿⣿⡄⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣠⡾⠟⠋⢀⢀⢀⠈⠁⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⢀⠘⣿⡬⢀⠙⢿⣿⣿⣿⣿⣿⣆⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠉⢀⢀⢀⢀⢀⢀⣤⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁
+⢀⢀⠚⢿⡄⡀⠈⠉⠻⢿⣿⣿⣿⣷⣦⣄⣀⡀⢀⡀⢀⢀⢀⢀⢀⢀⣤⠔⢀⠉⠉⠉⢑⠆⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⡫⠂
+⣤⢀⠂⢸⢿⣧⢀⢀⢀⣼⣿⣿⡟⠝⠉⠉⢀⢀⢀⢀⢀⢀⢀⢀⢀⠘⠇⢀⢀⢀⢀⠈⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠠⢺⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⠅⢀⢀⡀
+⣿⡄⡆⢰⠐⡟⢿⡇⣤⣿⣿⣿⣷⣄⢀⡀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠔⢀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⣉⠧⢬⣵⣆⡀⠁
+⣿⣾⣿⣸⣪⣿⣽⢠⣿⣿⣿⣿⣿⣿⣿⣶⣄⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠄⢀⢀⢀⠈⡉⠽⢙⣛⣿⣿⡿⣽⡖⠂⣿⣿⣆⢀⠈⠉⠛⠇
+⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣀⡀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡀⠔⠁⢀⢀⢀⢀⢀⠱⣾⣷⣿⡿⣫⣾⣿⠁⢀⣿⣿⣿⣷⡀
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣤⣤⣤⣀⣀⢀⢀⣀⣀⣀⠠⠐⠈⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⠻⠯⣾⣿⣿⠃⢀⢀⣿⣿⣿⣿⣿⣦⡀
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣫⣥⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⠉⣶⣦⠼⠿⣿⣿⣿⣿⣿⣿⡆
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⢛⣛⣛⣿⣿⣿⣟⠛⢛⣋⣩⣟⣻⣿⡿⠣⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⣿⢀⢀⢀⢀⢀⠉⠉⠉⠁
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⠿⢛⠫⠐⣽⣿⣿⣿⣿⠟⠁⢀⢀⢃⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡶⠏⢀⢀⣼⠿⠛⣹⣿⠏⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡀⢀⠐⠈⢀⢀⢀⣿⣿⡄
+⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢀⠁⢀⠁⢀⢀⢀⠉⠉⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠁⢀⢀⢀⢀⢀⢀⢀⠈⠉⠁
+
+██╗░░██╗██╗██╗░░░░░██╗░░░░░  ░█████╗░██╗░░░░░██╗░░░░░  ████████╗██╗░░██╗███████╗
+██║░██╔╝██║██║░░░░░██║░░░░░  ██╔══██╗██║░░░░░██║░░░░░  ╚══██╔══╝██║░░██║██╔════╝
+█████═╝░██║██║░░░░░██║░░░░░  ███████║██║░░░░░██║░░░░░  ░░░██║░░░███████║█████╗░░
+██╔═██╗░██║██║░░░░░██║░░░░░  ██╔══██║██║░░░░░██║░░░░░  ░░░██║░░░██╔══██║██╔══╝░░
+██║░╚██╗██║███████╗███████╗  ██║░░██║███████╗███████╗  ░░░██║░░░██║░░██║███████╗
+╚═╝░░╚═╝╚═╝╚══════╝╚══════╝  ╚═╝░░╚═╝╚══════╝╚══════╝  ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝
+
+░██████╗░░█████╗░██╗░░░██╗░██████╗  ███████╗██████╗░██╗████████╗██╗░█████╗░███╗░░██╗██╗
+██╔════╝░██╔══██╗╚██╗░██╔╝██╔════╝  ██╔════╝██╔══██╗██║╚══██╔══╝██║██╔══██╗████╗░██║██║
+██║░░██╗░███████║░╚████╔╝░╚█████╗░  █████╗░░██║░░██║██║░░░██║░░░██║██║░░██║██╔██╗██║██║
+██║░░╚██╗██╔══██║░░╚██╔╝░░░╚═══██╗  ██╔══╝░░██║░░██║██║░░░██║░░░██║██║░░██║██║╚████║╚═╝
+╚██████╔╝██║░░██║░░░██║░░░██████╔╝  ███████╗██████╔╝██║░░░██║░░░██║╚█████╔╝██║░╚███║██╗
+░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░  ╚══════╝╚═════╝░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝╚═╝
+*/
+/*inicord Palette*/
+html:root {
+  --slate-palette: "INIcord";
+  --toolbar-background-alt:#31283a;
+  --toolbar-background:#3e314a;
+  --toolbar-background-hover:#3c1254;
+  --toolbar-background-active:#3c1254;
+  --toolbar-search-background:rgba(0,0,0,0.25);
+  --toolbar-search-border:rgba(255,255,255,0.2);
+  --toolbar-border:var(--toolbar-background);
+  --toolbar-text-muted:#c0c0c0;
+  --toolbar-text-normal:#e6e6e6;
+  --font-family:'quicksand';
+  --font-size: 13px;
+
+}
 :root {
-  --lv1: #05040e;
-  --accent: rgba(120, 89, 204, 0.17);
-  --hover: #fff;
-  --bg: url('https://39hige1.github.io/initiatetheme/dualvoid.png');
-  /*--bg2:url("https://initiate.space/discord/theme/fuckpaper.png");*/
-  --HomeButtonImg:url("https://39hige1.github.io/initiatetheme/logoanim.gif");
-  --bg-opacity: 1;
-  --bg-fade:75%;
-  --font: 'Inter', sans-serif;
-  --letter-spacing: -.02rem;
-  --caution: #ffd104;
-  --danger: #e20b0b;
-  --unavailable: #636b75;
-  --invisible: #747f8d;
-  --information: #4a90e2;
-  --twitch-purple: #9146FF;
-  --spotify-green: #1DB954;
-  --xbox-green: #0e7a0d;
-  --netflix-red: #e50914;
-  --user-roundness: 0px;
-  --sourcecheck-unsafe-embed-bg-dark: var(--lv1);
-  --sourcecheck-unsafe-shadow-tint-dark: var(--lv1);
-  --width2:  60%;
-  --height2:  85%;
-  --MsgBarColor: #000;
-  --mentionColor: #ff4747;
-  --link: #ffd48c;
-  --ChannelColorHash: #698dcc;
-  --background-mentioned: rgba(250,166,26,0.05);
-  font-size: 14px !important;
+  /*Primary Colors*/
+  --accent: 60, 18, 84;
+  --link-colour: 0, 255, 237;
+  --background: #1d1723;
+  --background-alt: #1d1723;
+  --background-light: #1d1723;
+  --background-dark: rgba(120, 89, 204, 0.17);
+  --base-border: transparent;
+  --text-focus: #ff4747;
+  --link: #ffc342 !important;
+  
+
+  /*Server List*/
+  --server-icon-size: 45px;
+  --server-icon-spacing: 8px;
+  --server-container-padding: 10px;
+
+
 }
-/*###################################################################################################*/
-body::before {
- background-image:none !important
+
+/*
+====================================================================================
+                Please place any Theme-specific Custom CSS Below here
+====================================================================================
+*/
+
+
+
+.channel-2QD9_O > .layout-2DM8Md .avatar-3uk_u9::after {
+    content: "@";
+    position: relative;
+    color: #698dcc;
+    left: 87%;
+    top: 0%;
+    font-weight: bolder;
 }
-body::after {
-  background-image:none !important;
+.avatar-3uk_u9 {
+    margin-right: 32px !important;
+}
+#app-mount .wrapper-2a6GCs.cozy-3raOZG .emoji.jumboable {
+    width: none;
+    height: none;
+}
+#app-mount .wrapper-2a6GCs.cozy-3raOZG .emoji {
+  width: none;
+    height: none;
+}
+.emoji.jumboable {
+    width: 5rem;
+    height: 5rem;
+    min-height: 3rem;
+}
+.mentioned-xhSam7 .messageContent-2qWWxC {
+  color: #ff4747;
+}
+.mentioned-xhSam7 .messageContent-2qWWxC::after {
+    content: '';
+    position: absolute;
+    top: 28px;
+    left: 41px;
+    width: calc(100% - 79px);
+    height: calc(100% - 30px);
+    z-index: -1;
+    background: var(--background-mentioned);
+    border-left: 4px solid #ff4747;
+}
+#app-mount .anchor-3Z-8Bb:not(.guildsError-b7zR5H), .fakeLink-26oLcc, .mentioned-xhSam7 .mention  {
+  color: var(--link);
+}
+.wrapper-3WhCwL {
+  color: var(--link) !important;
+}
+#app-mount .sidebar-2K8pFh .content-1x5b-n svg {
+  color:#7859cc !important;
 }

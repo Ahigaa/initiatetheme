@@ -1,6 +1,6 @@
 /**
- * @name SlaATeINI UJIN 2
- * @author STOLEN BY EUGEN made by Ahigger AHIGGER EDITION:tm:
+ * @name INITIATE
+ * @author made by Ahigger AHIGGER EDITION:tm: fucked up by Ujin
  * @version 1.6 SEX EDITION
  * @invite FUCK U
  * @description Ahigger
@@ -8,7 +8,6 @@
  * @website THIS DICK DOT COM
 */
 /*
-
 ██╗███╗   ██╗██╗████████╗██╗ █████╗ ████████╗███████╗
 ██║████╗  ██║██║╚══██╔══╝██║██╔══██╗╚══██╔══╝██╔════╝
 ██║██╔██╗ ██║██║   ██║   ██║███████║   ██║   █████╗  
@@ -18,7 +17,6 @@
 ###################################################################################################
 Based on Slate
 ###################################################################################################
-
 ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡽⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
 ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡅⠈⠙⠙⠿⠻⠏⡿⣿⣿⣿⣿⡇
 ⢀⢀⢀⢀⢀⢀⢀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢛⣩⣴⣶⣶⣾⣿⣿⣶⣶⣦⣌⡙⢿⣿⡇
@@ -51,25 +49,24 @@ Based on Slate
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⠿⢛⠫⠐⣽⣿⣿⣿⣿⠟⠁⢀⢀⢃⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡶⠏⢀⢀⣼⠿⠛⣹⣿⠏⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡀⢀⠐⠈⢀⢀⢀⣿⣿⡄
 ⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⢀⠁⢀⠁⢀⢀⢀⠉⠉⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠁⢀⢀⢀⢀⢀⢀⢀⠈⠉⠁
-
 ██╗░░██╗██╗██╗░░░░░██╗░░░░░  ░█████╗░██╗░░░░░██╗░░░░░  ████████╗██╗░░██╗███████╗
 ██║░██╔╝██║██║░░░░░██║░░░░░  ██╔══██╗██║░░░░░██║░░░░░  ╚══██╔══╝██║░░██║██╔════╝
 █████═╝░██║██║░░░░░██║░░░░░  ███████║██║░░░░░██║░░░░░  ░░░██║░░░███████║█████╗░░
 ██╔═██╗░██║██║░░░░░██║░░░░░  ██╔══██║██║░░░░░██║░░░░░  ░░░██║░░░██╔══██║██╔══╝░░
 ██║░╚██╗██║███████╗███████╗  ██║░░██║███████╗███████╗  ░░░██║░░░██║░░██║███████╗
 ╚═╝░░╚═╝╚═╝╚══════╝╚══════╝  ╚═╝░░╚═╝╚══════╝╚══════╝  ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝
-
 ░██████╗░░█████╗░██╗░░░██╗░██████╗  ███████╗██████╗░██╗████████╗██╗░█████╗░███╗░░██╗██╗
 ██╔════╝░██╔══██╗╚██╗░██╔╝██╔════╝  ██╔════╝██╔══██╗██║╚══██╔══╝██║██╔══██╗████╗░██║██║
 ██║░░██╗░███████║░╚████╔╝░╚█████╗░  █████╗░░██║░░██║██║░░░██║░░░██║██║░░██║██╔██╗██║██║
 ██║░░╚██╗██╔══██║░░╚██╔╝░░░╚═══██╗  ██╔══╝░░██║░░██║██║░░░██║░░░██║██║░░██║██║╚████║╚═╝
 ╚██████╔╝██║░░██║░░░██║░░░██████╔╝  ███████╗██████╔╝██║░░░██║░░░██║╚█████╔╝██║░╚███║██╗
 ░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░  ╚══════╝╚═════╝░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝╚═╝
+Based on Slate this time, because I got lazy updating the old one
 */
-@import url("https://39hige1.github.io/initiatetheme/fucknme.css?version=fuckme");
+@import url("https://39hige1.github.io/initiatetheme/fucknme.css?version=fuckmeee");
 /*inicord Palette*/
 html:root {
-  --slate-palette: "INIcord";
+  --ini-palette: "ÒuÓ";
   --toolbar-background-alt:#31283a;
   --toolbar-background:#3e314a;
   --toolbar-background-hover:#3c1254;
@@ -108,54 +105,3 @@ html:root {
 ====================================================================================
                 Please place any Theme-specific Custom CSS Below here
 ====================================================================================
-*/
-
-
-
-.channel-2QD9_O > .layout-2DM8Md .avatar-3uk_u9::after {
-    content: "@";
-    position: relative;
-    color: #698dcc;
-    left: 87%;
-    top: 0%;
-    font-weight: bolder;
-}
-.avatar-3uk_u9 {
-    margin-right: 32px !important;
-}
-#app-mount .wrapper-2a6GCs.cozy-3raOZG .emoji.jumboable {
-    width: none;
-    height: none;
-}
-#app-mount .wrapper-2a6GCs.cozy-3raOZG .emoji {
-  width: none;
-    height: none;
-}
-.emoji.jumboable {
-    width: 5rem;
-    height: 5rem;
-    min-height: 3rem;
-}
-.mentioned-xhSam7 .messageContent-2qWWxC {
-  color: #ff4747;
-}
-.mentioned-xhSam7 .messageContent-2qWWxC::after {
-    content: '';
-    position: absolute;
-    top: 28px;
-    left: 41px;
-    width: calc(100% - 79px);
-    height: calc(100% - 30px);
-    z-index: -1;
-    background: var(--background-mentioned);
-    border-left: 4px solid #ff4747;
-}
-#app-mount .anchor-3Z-8Bb:not(.guildsError-b7zR5H), .fakeLink-26oLcc, .mentioned-xhSam7 .mention  {
-  color: var(--link);
-}
-.wrapper-3WhCwL {
-  color: var(--link) !important;
-}
-#app-mount .sidebar-2K8pFh .content-1x5b-n svg {
-  color:#7859cc !important;
-}

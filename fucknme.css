@@ -2394,7 +2394,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   transform: scale(1.5);
 }
 #app-mount .guilds-1SWlCJ .homeIcon-tEMBK1 {
-    background-image: url('https://39hige1.github.io/initiatetheme/logoanim.gif')!important;
+    background-image: url('https://39hige1.github.io/initiatetheme/Void-INI2.gif')!important;
     background-position: center;
     background-size: cover;
     background-color: transparent!important;
@@ -2409,9 +2409,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 #app-mount .guilds-1SWlCJ .homeIcon-tEMBK1 path {
   display: none;
-}
-#app-mount .guilds-1SWlCJ .selected-bZ3Lue .homeIcon-tEMBK1 {
-  background: var(--text-focus);
 }
 #app-mount .guilds-1SWlCJ .guildSeparator-3s64Iy {
   background: var(--base-border);

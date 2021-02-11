@@ -13698,3 +13698,18 @@ nav.privateChannels-1nO12o.da-privateChannels {
 #app-mount .sidebar-2K8pFh .content-1x5b-n svg {
   color:#7859cc !important;
 }
+#app-mount .avatar-1BDn8e + h2 {
+  overflow: visible;
+}
+.avatar-1BDn8e[src*="759621355708350484"] + h2::before {
+    content: "----";
+    color: transparent;
+    background-image: url(https://initiate.space/favicon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 42px;
+    position: absolute;
+    top: 18px;
+    z-index: 100;
+    transform: scale(.8);
+}

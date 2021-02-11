@@ -1535,16 +1535,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .sidebar-2K8pFh .channelNotice-1-XFjC.invite-OjTXrW {
   background-image: none;
 }
-#app-mount .sidebar-2K8pFh .channelNotice-1-XFjC.invite-OjTXrW:before {
-  content: "";
-  position: relative;
-  display: block;
-  width: 75px;
-  height: 80px;
-  margin: var(--spacing);
-  background: var(--text-normal);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/cover no-repeat;
-}
 
 #app-mount .sidebar-2K8pFh .wrapper-2jXpOf {
   position: relative;
@@ -2719,16 +2709,8 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   font-weight: var(--font-weight-light);
   color: var(--text-normal);
 }
-#app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7:before {
-  content: "";
-  width: 100px;
-  height: 100px;
-  background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/contain no-repeat;
-  margin-bottom: var(--spacing);
-}
 #app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7:after {
-  content: "There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agian.";
+  content: "There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agianiggerniggerniggerniggerniggerniggerniggernigger.";
   font-size: var(--font-size);
   color: var(--text-muted);
   text-transform: none;
@@ -2832,15 +2814,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 #app-mount .messagesWrapper-1sRNjr .container-3zqIcM .inner-3GZ54g {
   max-width: 600px;
   width: 100%;
-}
-#app-mount .messagesWrapper-1sRNjr .container-3zqIcM .inner-3GZ54g:before {
-  content: "";
-  width: 90%;
-  height: 200px;
-  background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/3.svg") center/contain no-repeat;
-  margin-bottom: var(--spacing);
 }
 #app-mount .messagesWrapper-1sRNjr .container-3zqIcM .inner-3GZ54g .titleName-3-Lp3Z {
   font-size: var(--font-size-xxl);
@@ -5875,10 +5848,6 @@ html.theme-light #app-mount .container-16j22k .problems-3mgf6w a.statusLink-gFXh
 #app-mount .wrapper-3Q5DdO .verticalSeparator-3huAjp {
   display: none;
 }
-#app-mount .wrapper-3Q5DdO .rightSplit-2US0xy {
-  background: url("https://discordstyles.github.io/Slate/assets/illustrations/2.svg") center/50%;
-  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.4);
-}
 #app-mount .wrapper-3Q5DdO .authBox-hW6HRx {
   padding: 0;
   max-width: 400px;
@@ -6067,14 +6036,6 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   border-top: 1px solid var(--base-border);
   box-sizing: border-box;
 }
-#app-mount .noChannel-Z1DQK7 .wrapper-r-6rrt {
-  width: 100%;
-  height: calc(100% - var(--toolbar-height) * 2);
-  margin: 0;
-  max-width: unset;
-  background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/4.svg") center/50% no-repeat;
-}
 #app-mount .noChannel-Z1DQK7 .wrapper-r-6rrt .image-1GzsFd,
 #app-mount .noChannel-Z1DQK7 .wrapper-r-6rrt .flexChild-faoVW3 {
   display: none;
@@ -6089,16 +6050,6 @@ html.theme-light #app-mount .wrapper-3Q5DdO .qrLogin-1AOZMt .startOverButton-3q0
   justify-content: flex-start;
   align-items: flex-start;
   padding: calc(var(--spacing) * 4);
-}
-#app-mount .errorPage-u8SYh4 .flex-1xMQg5 .image-3zK3Wt {
-  position: absolute;
-  right: var(--spacing);
-  bottom: var(--spacing);
-  height: 490px;
-  width: 290px;
-  background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/11.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/assets/illustrations/11.svg") center/contain no-repeat;
 }
 #app-mount .errorPage-u8SYh4 .flex-1xMQg5 .text-NLHgOm {
   width: 100%;
@@ -7995,15 +7946,6 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   flex-direction: column;
   align-items: center;
 }
-#app-mount .premiumPromo-fVlLu- .premiumPromoTitle-2cKOQe:before {
-  content: "";
-  height: 124px;
-  width: 400px;
-  display: block;
-  background: var(--text-muted);
-  margin-bottom: var(--spacing-double);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/6.svg") center/contain no-repeat;
-}
 #app-mount .premiumPromo-fVlLu- .premiumPromoDescription-QWky-t {
   font-size: var(--font-size);
   color: var(--text-muted);
@@ -8653,15 +8595,6 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   box-shadow: none;
   max-width: 320px;
 }
-#app-mount .container-2Uhd6d::before {
-  content: "";
-  height: 72px;
-  width: 72px;
-  position: relative;
-  display: block;
-  background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/50px no-repeat;
-}
 #app-mount .container-2Uhd6d .content-3MbD2f {
   margin-left: var(--spacing);
 }
@@ -9095,13 +9028,6 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 #app-mount .everyonePopout-nEbJY3 .body-2iXqIL {
   padding: var(--spacing-double);
 }
-#app-mount .everyonePopout-nEbJY3 .animation-3GofIz {
-  -webkit-mask: url("https://discordstyles.github.io/Slate/assets/illustrations/1.svg") center/cover;
-  background: var(--text-normal);
-  width: 120px;
-  min-width: 120px;
-  max-width: 120px;
-}
 #app-mount .everyonePopout-nEbJY3 .animation-3GofIz svg {
   display: none;
 }
@@ -9247,7 +9173,7 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-1nP7fx .buttonCon
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .info-1VyQPT .colorMuted-HdFt4q:first-of-type:before,
 #app-mount .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .info-1VyQPT .colorMuted-HdFt4q:first-of-type:before {
-  content: "Slate " var(--ini-version) " (" var(--slate-palette) ")";
+  content: "INITIATE " var(--ini-version) " (" var(--ini-palette) ")";
   display: block;
 }
 

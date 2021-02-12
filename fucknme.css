@@ -3588,7 +3588,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   box-sizing: border-box;
   padding: var(--spacing) var(--spacing) var(--spacing) calc(var(--spacing-double) + var(--avatar-size-sm));
   border-top: 1px solid var(--base-border);
-  display: flex;
   align-items: center;
   background: var(--background-light);
   height: auto;

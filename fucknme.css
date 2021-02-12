@@ -3541,7 +3541,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   color: #379a37;
 }
 #app-mount .repliedMessage-VokQwo .username-1A8OIy {
-  color: #379a37 !important;
+  color: #49ff59 !important;
 }
 
 #app-mount .repliedMessage-VokQwo > div {
@@ -3566,7 +3566,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   top: 5px;
   left: -4px;
   z-index: 0;
-  color: #379a37 !important;
+  color: #49ff59 !important;
   font-size: 15px;
 }
 #app-mount .repliedMessage-VokQwo + .contents-2mQqc9 .header-23xsNx {
@@ -13242,7 +13242,7 @@ nav.privateChannels-1nO12o.da-privateChannels {
 .channel-2QD9_O > .layout-2DM8Md .avatar-3uk_u9::after {
     content: "@";
     position: relative;
-    color: #698dcc;
+    color: #49ff59;
     left: 87%;
     top: 0%;
     font-weight: bolder;

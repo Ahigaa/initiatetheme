@@ -11941,19 +11941,20 @@ body #app-mount #bd-settingspane-container .bd-controls {
   stroke-width: 0.35px;
 }
 .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  border: 1px solid var(--base-border);
-  border-radius: var(--border-radius);
-  box-sizing: border-box;
-  pointer-events: none;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 94% 94%, 94% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 94%, 94% 94%, 94% 100%, 0 100%);
+    content: var(--fuckingnigger);
+    position: absolute;
+    top: 106%;
+    left: 31%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border: 1px solid var(--base-border);
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    pointer-events: none;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 94% 94%, 94% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 94% 94%, 94% 100%, 0 100%);
+    color: var(--verifiedcolor);
 }
 .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA::after {
   content: "";

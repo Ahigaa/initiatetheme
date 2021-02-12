@@ -3538,7 +3538,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   max-width: calc(100vw - (var(--sidebar-width) * 3));
   padding: var(--spacing-third) var(--spacing-half);
   border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
-  color: #379a37;
+  color: #49ff59;
 }
 #app-mount .repliedMessage-VokQwo .username-1A8OIy {
   color: #49ff59 !important;

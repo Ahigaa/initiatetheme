@@ -434,7 +434,6 @@ body #app-mount .container-1r6BKw .children-19S4PO .divider-3FBTu8 {
   display: none;
 }
 body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw {
-    left: 14%;
     width: auto;
     height: auto;
     opacity: 1;
@@ -442,6 +441,7 @@ body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw {
     padding: 5px;
     position: fixed;
     bottom: 0%;
+      right: 15%;
 }
 /*body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw a {
   display: none;

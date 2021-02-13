@@ -446,6 +446,7 @@ body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw {
     position: fixed;
     bottom: 0%;
       right: 15%;
+      font-size: 11px;
 }
 /*body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw a {
   display: none;
@@ -3598,7 +3599,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   margin: 0;
   position: relative;
   z-index: 1;
-  padding-bottom: 26px;
+  padding-bottom: 12px;
 }
 #app-mount .form-2fGMdU:before {
   content: none;

@@ -434,14 +434,14 @@ body #app-mount .container-1r6BKw .children-19S4PO .divider-3FBTu8 {
   display: none;
 }
 body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw {
-  position: absolute;
-  top: 100%;
-  left: 1%;
-  width: auto;
-  height: auto;
-  opacity: 1;
-  background-color: var(--background) !important;
-  padding: 5px;
+    left: 14%;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    background-color: transparent !important;
+    padding: 5px;
+    position: fixed;
+    bottom: 0%;
 }
 /*body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw a {
   display: none;
@@ -3594,6 +3594,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   margin: 0;
   position: relative;
   z-index: 1;
+  padding-bottom: 26px;
 }
 #app-mount .form-2fGMdU:before {
   content: none;

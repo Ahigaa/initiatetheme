@@ -13304,6 +13304,18 @@ nav.privateChannels-1nO12o.da-privateChannels {
     background-color: #ff4747;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 }
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    color: #513d15;
+    background-color: #ffc342;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+    top: 1px;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    color: #280b0b;
+    background-color: #ff4747;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+    top: 1px;
+}
 /*.avatar-1BDn8e[src*="759621355708350484"] + h2::before {
     content: "----";
     color: transparent;

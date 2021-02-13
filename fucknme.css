@@ -13294,6 +13294,16 @@ nav.privateChannels-1nO12o.da-privateChannels {
 #app-mount .avatar-1BDn8e + h2 {
   overflow: visible;
 }
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    color: #513d15;
+    background-color: #ffc342;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    color: #280b0b;
+    background-color: #ff4747;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
 /*.avatar-1BDn8e[src*="759621355708350484"] + h2::before {
     content: "----";
     color: transparent;

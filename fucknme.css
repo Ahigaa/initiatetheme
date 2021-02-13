@@ -13328,3 +13328,6 @@ nav.privateChannels-1nO12o.da-privateChannels {
     z-index: 100;
     transform: scale(.8);
 }*/
+.channelNotice-3DDmsB.da-channelNotice {
+    z-index: 10;
+}

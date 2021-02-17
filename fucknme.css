@@ -1521,10 +1521,6 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   cursor: var(--cursor);
   padding: 0;
 }
-#app-mount .sidebar-2K8pFh .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .name-23GUGE, #app-mount .sidebar-2K8pFh .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n svg {
-  color: var(--text-focus);
-  opacity: 1;
-}
 #app-mount .sidebar-2K8pFh .wrapper-2jXpOf.modeUnread-1qO3K1:hover .unread-2lAfLh {
   height: 18px;
 }
@@ -13341,5 +13337,9 @@ a[href*='661296785050042381'] > .name-23GUGE.da-name.overflow-WK9Ogt.da-overflow
 a[href*='660982798336786439'] > .name-23GUGE.da-name.overflow-WK9Ogt.da-overflow, a[href*='660982798336786439'] > .iconContainer-1BBaeJ.da-iconContainer > svg.icon-1DeIlz.da-icon,
 a[href*='763490059944591371'] > .name-23GUGE.da-name.overflow-WK9Ogt.da-overflow, a[href*='763490059944591371'] > .iconContainer-1BBaeJ.da-iconContainer > svg.icon-1DeIlz.da-icon
 {
-  color: #ffc342;
+  color: #ffc342 !important;
+}
+#app-mount .sidebar-2K8pFh .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .name-23GUGE, #app-mount .sidebar-2K8pFh .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n svg {
+  color: var(--text-focus) !important;
+  opacity: 1;
 }

@@ -71,6 +71,8 @@
   --rs-width: 2px;
   --rs-avatar-shape: var(--avatar-radius);
   --cursor: default;
+  --container: calc(var(--icon) + calc(var(--server-container-padding) * -2));
+  --noasw-base: calc(var(--icon) + calc(var(--server-container-padding) * -2));
 }
 @font-face {
     font-family: 'PixelOperator';
@@ -13342,4 +13344,17 @@ a[href*='763490059944591371'] > .name-23GUGE.da-name.overflow-WK9Ogt.da-overflow
 #app-mount .sidebar-2K8pFh .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .name-23GUGE, #app-mount .sidebar-2K8pFh .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n svg {
   color: var(--text-focus) !important;
   opacity: 1;
+}
+
+.guilds-1SWlCJ {
+        width:var(--container) !important;
+        transition: width 0.3s;
+    }
+    .guilds-1SWlCJ:hover {
+    --container: calc(var(--icon) + calc(var(--server-container-padding) * 2)) !important;
+    --icon: var(--server-icon-size, var(--ASW_size, 35px));
+    --noasw-base: calc(var(--icon) + calc(var(--server-container-padding) * 2)) !important;
+    }
+    #app-mount .base-3dtUhz {
+    left: var(--noasw-base) !important;
 }

@@ -445,8 +445,10 @@ body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw {
     padding: 5px;
     position: fixed;
     bottom: 0%;
-      right: 15%;
-      font-size: 11px;
+    right: 50%;
+    left: 50%
+    font-size: 11px;
+    transform: translate(-50%);
 }
 /*body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw a {
   display: none;
@@ -3595,7 +3597,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   margin: 0;
   position: relative;
   z-index: 1;
-  padding-bottom: 12px;
+  padding-bottom: 17px;
 }
 #app-mount .form-2fGMdU:before {
   content: none;
@@ -11945,7 +11947,7 @@ body #app-mount #bd-settingspane-container .bd-controls {
 .root-SR8cQa .header-QKLPzZ .wrapper-3t9DeA::before {
     content: var(--fuckingnigger);
     position: absolute;
-    top: 106%;
+    top: 115%;
     left: 31%;
     width: 100%;
     height: 100%;

@@ -438,7 +438,7 @@ body #app-mount .container-1r6BKw .children-19S4PO .divider-3FBTu8 {
   display: none;
 }
 body #app-mount .container-1r6BKw .children-19S4PO .topic-TCb_qw {
-    width: auto;
+    width: fit-content;
     height: auto;
     opacity: 1;
     background-color: transparent !important;

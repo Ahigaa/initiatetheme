@@ -13274,7 +13274,7 @@ nav.privateChannels-1nO12o.da-privateChannels {
     content: '';
     position: absolute;
     top: 28px;
-    left: 41px;
+    left: -6px;
     width: calc(100% - 79px);
     height: calc(100% - 30px);
     z-index: -1;

@@ -139,7 +139,7 @@ body {
 }
 #app-mount .base-3dtUhz {
   border-radius: 0;
-  left: var(--noasw-base) !important;
+  /*left: var(--noasw-base) !important;*/
   overflow: visible !important;
 }
 #app-mount .layers-3iHuyZ {
@@ -13345,4 +13345,6 @@ a[href*='763490059944591371'] > .name-23GUGE.da-name.overflow-WK9Ogt.da-overflow
   color: var(--text-focus) !important;
   opacity: 1;
 }
-
+.scroller-1Bvpku {
+  background-color: transparent;
+}

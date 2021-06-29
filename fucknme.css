@@ -1,5 +1,5 @@
 @import url("https://discordstyles.github.io/AdjustableServerWidth/base.css");
-@import url('https://39hige1.github.io/initiatetheme/discordbg.css?version=owo');
+@import url('https://ahigaa.github.io/initiatetheme/discordbg.css?version=owo');
 @import url("https://boards.initiate.space/verified.css");
 :root {
   --ini-version: "1.2";
@@ -2354,7 +2354,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
   transform: scale(1.5);
 }
 #app-mount .guilds-1SWlCJ .homeIcon-tEMBK1 {
-    background-image: url('https://39hige1.github.io/initiatetheme/Void-INI2.gif')!important;
+    background-image: url('https://ahigaa.github.io/initiatetheme/Void-INI2.gif')!important;
     background-position: center;
     background-size: cover;
     background-color: transparent!important;

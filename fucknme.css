@@ -1951,7 +1951,7 @@ html.platform-win[lang=en-US]:not(.app-focused) body:not(.oldTitleBarEnabled-D8p
 }
 #app-mount .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp {
   position: absolute;
-  left: var(--sidebar-width);
+  left: 90px!important;
   margin: 0 var(--spacing);
   z-index: 10;
 }
@@ -13347,4 +13347,7 @@ a[href*='763490059944591371'] > .name-23GUGE.da-name.overflow-WK9Ogt.da-overflow
 }
 .scroller-1Bvpku {
   background-color: transparent;
+}
+#app-mount .privateChannels-1nO12o .scroller-1JbKMe {
+    margin-top: 160px;
 }
